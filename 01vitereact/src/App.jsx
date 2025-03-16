@@ -1,9 +1,15 @@
 
+import { use } from 'react'
+import Chai from './Chai.jsx'
 
 function App() {
-  
+    const username="abc@123"
   return (
-   <h1>Hi hello how are you</h1>
+    <>
+      <Chai/>
+      <p>Testing {username}</p>
+    </>
+   
   )
 }
 
